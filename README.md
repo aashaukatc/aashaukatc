@@ -6,6 +6,12 @@ I build practical systems for US healthcare revenue intelligence, denial trackin
 
 My flagship project is DIRT, Denied Insurance Reimbursement Tracker. DIRT is a no-PHI healthcare revenue intelligence platform designed to help providers and billing companies detect reimbursement leakage, analyze denial patterns, compare financial performance, and convert RCM data into operational action.
 
+<p align="center">
+  <a href="https://github.com/aashaukatc">GitHub</a> •
+  <a href="https://dirt-rcm.netlify.app">DIRT</a> •
+  <a href="https://maslayehhai.com">Masla Yeh Hai</a>
+</p>
+
 ---
 
 ## About Me
@@ -94,12 +100,12 @@ Data Sources
 
 | Repository | Purpose |
 |---|---|
-| rcm-iaas-netlify-mvp | Frontend MVP for DIRT / RCM Intelligence platform |
-| dirt-backend-foundation | Backend architecture foundation for secure no-PHI RCM SaaS workflows |
-| rcm-data-platform | RCM analytics, data modeling, validation, and reporting foundation |
-| personal-automation-lab | PowerShell, GitHub, productivity, and workflow automation experiments |
-| maslayehhai | Pakistan-first media, education, and civic intelligence platform |
-| tripsyar-static-mvp-v1 | Modular tourism marketplace MVP concept for Pakistan |
+| [rcm-iaas-netlify-mvp](https://github.com/aashaukatc/rcm-iaas-netlify-mvp) | Frontend MVP for DIRT / RCM Intelligence platform |
+| [dirt-backend-foundation](https://github.com/aashaukatc/dirt-backend-foundation) | Backend architecture foundation for secure no-PHI RCM SaaS workflows |
+| [rcm-data-platform](https://github.com/aashaukatc/rcm-data-platform) | RCM analytics, data modeling, validation, and reporting foundation |
+| [personal-automation-lab](https://github.com/aashaukatc/personal-automation-lab) | PowerShell, GitHub, productivity, and workflow automation experiments |
+| [maslayehhai](https://github.com/aashaukatc/maslayehhai) | Pakistan-first media, education, and civic intelligence platform |
+| [tripsyar-static-mvp-v1](https://github.com/aashaukatc/tripsyar-static-mvp-v1) | Modular tourism marketplace MVP concept for Pakistan |
 
 ---
 
@@ -110,6 +116,12 @@ Data Sources
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aashaukatc&layout=compact&theme=tokyonight&hide_border=true)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=aashaukatc&theme=tokyonight&hide_border=true)
+
+---
+
+## Contribution Graph
+
+![Contribution Snake](https://raw.githubusercontent.com/aashaukatc/aashaukatc/output/github-contribution-grid-snake.svg)
 
 ---
 
