@@ -95,8 +95,8 @@ Problem -> Process -> Data -> Root Cause -> Architecture -> Automation -> Action
 
 ## GitHub Analytics
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aashaukatc&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)
+[![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aashaukatc&theme=tokyonight)](https://github.com/aashaukatc?tab=repositories)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aashaukatc&layout=compact&theme=tokyonight&hide_border=true)
+[![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=aashaukatc&theme=tokyonight)](https://github.com/aashaukatc?tab=repositories)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=aashaukatc&theme=tokyonight&hide_border=true)
