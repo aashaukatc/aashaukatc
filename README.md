@@ -2,76 +2,104 @@
 
 ### RCM Solutions Architect | Healthcare Operations Strategist | Business Analyst | AI Product Builder
 
-I build practical intelligence systems for healthcare revenue operations, automation workflows, data-driven decision support, and public proof-of-work products.
+I build practical intelligence systems that convert messy operations, scattered data, and weak workflows into visible, measurable, and executable systems.
 
-[Portfolio](https://aftabshaukat.me/) · [GitHub](https://github.com/aashaukatc) · [DIRT](https://dirtrcm.app/) · [Masla Yeh Hai](https://maslayehhai.com/) · [AYNAMATE](http://aynamate.life/) · [Contact](mailto:hello@aftabshaukat.me)
+[Portfolio](https://aftabshaukat.me/) · [GitHub](https://github.com/aashaukatc) · [DIRT](https://dirtrcm.app/) · [Masla Yeh Hai](https://maslayehhai.com/) · [AYNAMATE](http://aynamate.life/) · [Sehatyab](https://github.com/aashaukatc/Sehatyab) · [Contact](mailto:hello@aftabshaukat.me)
 
 ---
 
 ## Executive Profile
 
-My professional foundation is U.S. healthcare Revenue Cycle Management and operations. I am translating that operational depth into a product and systems phase: architecting tools, workflows, and research assets that make hidden operational leakage measurable and actionable.
+My professional foundation is U.S. healthcare Revenue Cycle Management and healthcare operations. I am translating that operational depth into a broader systems portfolio: healthcare revenue intelligence, AI-assisted operating workflows, consumer marketplaces, public education platforms, and evidence-backed product experiments.
 
-I work at the intersection of:
+My public proof-of-work is built around one operating idea:
 
-- RCM operations and denial intelligence
-- process optimization and workflow governance
-- product architecture and AI-assisted execution
-- public research and implementation-focused documentation
+```text
+Problem -> Process -> Data -> Root Cause -> Architecture -> Automation -> Action -> Measurement
+```
 
 ---
 
-## Current Build Phase
+## Current Build Map
 
-| Track | Direction | Public Value |
+| Track | Active Direction | Public Signal |
 |---|---|---|
-| RCM Intelligence | Build no-PHI analytics patterns for payer/CPT/provider/facility performance | Better visibility into leakage, denials, and cash barriers |
-| Product Architecture | Convert operational logic into reusable software workflows | Faster transition from analysis to execution |
-| Public Research | Publish structured implementation guides | Improves transparency, learning, and collaboration quality |
-| Ecosystem Building | Connect healthcare, education, and marketplace projects under one operating model | Consistent founder-style signal with real output |
+| Healthcare RCM Intelligence | DIRT, RCM data platforms, denial intelligence, no-PHI architecture | Revenue leakage visibility and operational decision support |
+| Healthy Consumer Products | Sehatyab healthy food / nutrition product experiments | Brand, market research, SKU cards, direct-order strategy |
+| Marketplace Systems | AynaMate / Glow Finder beauty and wellness marketplace direction | Local service discovery, provider workflows, privacy-first validation |
+| Civic & Education Platforms | Masla Yeh Hai public education and civic-intelligence ecosystem | Issue-led learning, public reasoning, responsible publishing |
+| Developer / Automation Ops | Personal automation, GitHub workflows, repo discipline | Faster execution, lower manual drag, cleaner documentation |
 
 ---
 
-## Key Projects
+## Flagship Projects
 
-### DIRT
+### DIRT — Data Intelligence for Revenue Transformation
 
-**Data Intelligence for Revenue Transformation**
+Healthcare revenue intelligence and RCM audit architecture focused on denial tracking, payer behavior, CPT/provider/facility performance, AR leakage, and operational actioning.
 
-- Healthcare revenue intelligence and RCM audit workflows
-- Denial tracking, financial leakage mapping, and payer behavior analysis
-- No-PHI architecture direction with operational decision support
+- Frontend MVP direction and public site posture
+- Backend foundation for no-PHI intake, audit contracts, and governance
+- Data-platform foundation for RCM analytics, validation, and reporting
 
-Live: [dirtrcm.app](https://dirtrcm.app/)
+Links: [DIRT](https://dirtrcm.app/) · [Frontend Repo](https://github.com/aashaukatc/rcm-iaas-netlify-mvp) · [Backend Repo](https://github.com/aashaukatc/dirt-backend-foundation) · [RCM Data Platform](https://github.com/aashaukatc/rcm-data-platform)
 
-### Masla Yeh Hai
+### Sehatyab — Healthy Food / Nutrition Product Lab
 
-**Pakistan-first public education and civic intelligence platform**
+A healthy-food product and market-validation track for Rawalpindi/Islamabad, currently shaped around small-batch, direct-order-first healthy products and nutrition-facing brand assets.
 
-- Structured issue-based awareness model
-- Practical social learning journeys
-- Campaign and public reasoning framework
+Current proof-of-work includes:
 
-Live: [maslayehhai.com](https://maslayehhai.com/)
+- Sehatyaab Daily Protein Bites
+- Sehatyaab Daily Crunch
+- Sehatyaab Daily Nourish
+- Organic healthy pre-order food business research for Rawalpindi and Islamabad
 
-### AYNAMATE
+Links: [Sehatyab Repo](https://github.com/aashaukatc/Sehatyab) · [Portfolio Section](https://aftabshaukat.me/#projects)
 
-**Beauty, wellness, and local services marketplace direction**
+### AYNAMATE / Glow Finder — Beauty, Wellness & Local Services Marketplace
 
-- Foodpanda-inspired service discovery model
-- Regional relevance for Pakistan, Turkey, and Iran-style markets
-- Mobile/web marketplace execution path
+A Foodpanda-inspired service discovery and workflow platform direction for beauty, wellness, fitness, aesthetics, salons, clinics, and independent providers.
 
-Live: [aynamate.life](http://aynamate.life/)
+- Validation-first marketplace thinking
+- Provider operations and booking workflow direction
+- Privacy-first product boundary discipline
+- Regional expansion logic for Pakistan-first service markets
+
+Links: [AYNAMATE](http://aynamate.life/) · [AynaMate Repo](https://github.com/aashaukatc/AynaMate)
+
+### Masla Yeh Hai — Public Education & Civic Intelligence
+
+Pakistan-first public education and civic-intelligence platform focused on turning real public problems into structured awareness, practical learning, and responsible public reasoning.
+
+Links: [Masla Yeh Hai](https://maslayehhai.com/) · [Repo](https://github.com/aashaukatc/maslayehhai)
 
 ---
 
-## Research Assets
+## Public Research Assets
 
 - [Hospice & Nursing Home Billing / RCM Guide](https://aftabshaukat.me/hospice-nursing-home-billing-rcm.html)
-- [Remote Monitoring RCM Architecture (RPM/RTM/Ambient)](https://aftabshaukat.me/remote-monitoring-rcm-architecture.html)
+- [Remote Monitoring RCM Architecture: RPM, RTM, Ambient Monitoring](https://aftabshaukat.me/remote-monitoring-rcm-architecture.html)
+- [Sehatyab Healthy Food Business Research](https://aftabshaukat.me/sehatyaab-food-business-report.md)
 
-These assets are structured for publication readiness, citation discipline, metadata quality, and future scholarly submission.
+These assets are structured as implementation-first research: market context, operational architecture, compliance boundaries, product logic, and execution sequencing.
+
+---
+
+## Featured Repositories
+
+| Repository | Role |
+|---|---|
+| [aashaukatc.github.io](https://github.com/aashaukatc/aashaukatc.github.io) | Personal portfolio and aftabshaukat.me website |
+| [aashaukatc](https://github.com/aashaukatc/aashaukatc) | GitHub personal brand/profile repository |
+| [rcm-iaas-netlify-mvp](https://github.com/aashaukatc/rcm-iaas-netlify-mvp) | DIRT frontend MVP / RCM intelligence surface |
+| [dirt-backend-foundation](https://github.com/aashaukatc/dirt-backend-foundation) | DIRT backend contracts, no-PHI guardrails, API foundation |
+| [rcm-data-platform](https://github.com/aashaukatc/rcm-data-platform) | RCM analytics/data modeling foundation |
+| [Sehatyab](https://github.com/aashaukatc/Sehatyab) | Healthy food / nutrition product brand track |
+| [AynaMate](https://github.com/aashaukatc/AynaMate) | Beauty and wellness marketplace direction |
+| [maslayehhai](https://github.com/aashaukatc/maslayehhai) | Civic education and public-intelligence platform |
+| [Azure-Setup](https://github.com/aashaukatc/Azure-Setup) | Cloud/account setup proof-of-work |
+| [4D_Endurance](https://github.com/aashaukatc/4D_Endurance) | Endurance/data decision-support project track |
 
 ---
 
@@ -80,16 +108,20 @@ These assets are structured for publication readiness, citation discipline, meta
 | Path | Best Fit |
 |---|---|
 | Employment | RCM leadership, healthcare analytics, operations intelligence, solutions architecture, product operations |
-| Collaboration | Healthcare SaaS, AI-assisted operations, workflow automation, research-to-product implementation |
-| Sponsorship / Support | Public healthcare research assets, civic education systems, open proof-of-work growth |
+| Collaboration | Healthcare SaaS, AI-assisted operations, workflow automation, healthy consumer products, research-to-product execution |
+| Sponsorship / Support | Public healthcare research, civic education systems, Pakistan-first digital platforms, open proof-of-work growth |
 
 ---
 
-## Operating Model
+## Stack & Operating Tools
 
-```text
-Problem -> Process -> Data -> Root Cause -> Architecture -> Automation -> Action -> Measurement
-```
+| Area | Tools / Methods |
+|---|---|
+| RCM / Healthcare Ops | eCW, claims, denials, AR, payer analysis, eligibility/auth workflows, CPT/payer/provider analytics |
+| Analytics | Excel, Power Query, Power Pivot, DAX, Python, SQL, dashboard design, QA controls |
+| Product / Frontend | HTML, CSS, JavaScript, React, Tailwind direction, GitHub Pages, static MVPs |
+| Backend / Cloud Direction | Node.js, Express, PostgreSQL, Supabase/DigitalOcean/Azure direction, API contracts |
+| Execution | GitHub, VS Code, Codex-style workflows, documentation-as-code, automation scripts |
 
 ---
 
