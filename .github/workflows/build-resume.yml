@@ -73,12 +73,17 @@ jobs:
             build_all=true
           else
             while IFS= read -r file; do
-              if [[ "$file" == "resumes/resume.json" ]]; then
+              if [[ "$file" == "resumes/resume.json" \
+                || "$file" == "package.json" \
+                || "$file" == "package-lock.json" \
+                || "$file" == "scripts/build-resumes.mjs" \
+                || "$file" == ".github/workflows/build-resume.yml" \
+                || "$file" == .devcontainer/* ]]; then
                 build_all=true
               elif [[ "$file" == resumes/targets/*_resume.json ]]; then
                 selected+=("$file")
               fi
-            done < <(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- "resumes/*.json" "resumes/**/*.json")
+            done < <(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}")
           fi
 
           if [[ "$build_all" == "true" ]]; then
