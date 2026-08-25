@@ -1,0 +1,12 @@
+{
+  "basics": {
+    "label": "Senior Project Manager | Healthcare Data & EMR Migration | Healthcare IT Delivery",
+    "summary": "Healthcare technology, revenue-cycle, and business-analysis leader with 12+ years across U.S. healthcare operations, EMR/EHR environments, technical implementation support, data governance, analytics, process transformation, and client delivery. Brings 6+ years of progressively senior project-management-equivalent work coordinating healthcare systems, operational change, data and reporting initiatives, requirements, testing, risk management, and cross-functional delivery from scope through go-live stabilization."
+  },
+  "skills": [
+    {
+      "name": "Healthcare IT Project and Migration Delivery",
+      "keywords": ["End-to-end project lifecycle", "Project plans", "Milestones and schedules", "Scope management", "RAID logs", "Cross-program dependencies", "Source-to-target mapping", "Data validation and reconciliation", "UAT", "Cutover readiness", "Go-live", "Hypercare"]
+    }
+  ]
+}

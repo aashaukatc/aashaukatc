@@ -1,0 +1,12 @@
+{
+  "basics": {
+    "label": "Technical Implementation Manager | Healthcare Data | Client Delivery | QA Governance",
+    "summary": "Technical implementation and healthcare-data professional with 12+ years across U.S. RCM, client delivery, business analysis, credentialing, analytics, automation, and process governance. Translates complex operational requirements and raw healthcare data into structured specifications, mappings, validation rules, QA controls, SQL models, and decision-ready outputs. Coordinates business and technical stakeholders across intake, configuration, testing, discrepancy resolution, reporting, and operational handoff."
+  },
+  "skills": [
+    {
+      "name": "Healthcare Data Implementation",
+      "keywords": ["Healthcare SaaS implementation", "Data ingestion", "File and schema validation", "Data mapping", "Control totals", "Data-quality checks", "Technical specifications", "Staging validation", "Discrepancy investigation", "SQL", "Python", "Customer training"]
+    }
+  ]
+}

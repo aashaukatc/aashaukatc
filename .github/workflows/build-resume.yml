@@ -1,0 +1,105 @@
+name: Build Resume PDF
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.json"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: resume-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Validate and render
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PUPPETEER_CACHE_DIR: ${{ github.workspace }}/.cache/puppeteer
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Node.js LTS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends \
+            fonts-dejavu-core \
+            fonts-liberation \
+            fonts-noto-cjk \
+            fonts-noto-color-emoji \
+            fonts-noto-core
+          sudo fc-cache --force
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Install compatible Chrome and Linux libraries
+        run: npx --no-install puppeteer browsers install chrome --install-deps
+
+      - name: Select resume sources
+        id: sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          selected=()
+          build_all=false
+
+          if [[ "${{ github.event_name }}" != "push" ]] \
+            || [[ "${{ github.event.before }}" == "0000000000000000000000000000000000000000" ]]; then
+            build_all=true
+          else
+            while IFS= read -r file; do
+              if [[ "$file" == "resumes/resume.json" ]]; then
+                build_all=true
+              elif [[ "$file" == resumes/targets/*_resume.json ]]; then
+                selected+=("$file")
+              fi
+            done < <(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- "resumes/*.json" "resumes/**/*.json")
+          fi
+
+          if [[ "$build_all" == "true" ]]; then
+            selected=("resumes/resume.json")
+            while IFS= read -r file; do
+              selected+=("$file")
+            done < <(find resumes/targets -maxdepth 1 -type f -name '*_resume.json' -print | sort)
+          elif (( ${#selected[@]} == 0 )); then
+            selected=("resumes/resume.json")
+          fi
+
+          printf '%s\n' "${selected[@]}" > "$RUNNER_TEMP/resume-sources.txt"
+          {
+            echo "files<<EOF"
+            printf '%s\n' "${selected[@]}"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Validate and build PDFs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t sources < "$RUNNER_TEMP/resume-sources.txt"
+          npm run build -- "${sources[@]}"
+
+      - name: Upload generated PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-pdfs-${{ github.run_number }}-${{ github.sha }}
+          path: output/*.pdf
+          if-no-files-found: error
+          retention-days: 30

@@ -1,0 +1,12 @@
+{
+  "basics": {
+    "label": "Healthcare Implementation Specialist | Workflow Design | Client Onboarding | AI Automation",
+    "summary": "Healthcare implementation and workflow specialist with 12+ years across U.S. RCM, credentialing, payer operations, client onboarding, business analysis, analytics, automation, and remote delivery. Maps current-state workflows, defines target processes, translates needs into structured requirements and acceptance conditions, coordinates stakeholders, manages risks and follow-up, and supports QA, training, go-live readiness, and stabilized handoff. Strong PHI awareness and practical experience designing human-reviewed AI-enabled healthcare workflows."
+  },
+  "skills": [
+    {
+      "name": "Healthcare Software Implementation",
+      "keywords": ["Kickoff through go-live", "Workflow discovery", "Current-state mapping", "Target-state design", "Requirements", "Acceptance criteria", "QA coordination", "Critical-path tracking", "Training", "Support handoff", "HIPAA and PHI awareness"]
+    }
+  ]
+}

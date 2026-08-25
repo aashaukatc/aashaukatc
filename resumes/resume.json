@@ -1,0 +1,312 @@
+{
+  "basics": {
+    "name": "Muhammad Aftab Shaukat",
+    "label": "Healthcare RCM & Operations Intelligence Leader | Business Analyst | Solutions Architect | Data & AI Systems Builder",
+    "email": "muhammadaftabshaukat@gmail.com",
+    "phone": "+92 312 5061195",
+    "url": "https://aftabshaukat.me/",
+    "summary": "Healthcare revenue-cycle, operations, and solutions leader with 12+ years supporting U.S. healthcare delivery across medical billing, A/R, denials, payer operations, business analysis, client implementation, analytics, automation, and systems optimization. Combines frontline RCM depth with workflow architecture, data governance, stakeholder leadership, and AI-assisted execution to turn complex operational problems into measurable, controlled, and scalable systems.",
+    "location": {
+      "city": "Rawalpindi",
+      "region": "Islamabad-Rawalpindi Metropolitan Area",
+      "countryCode": "PK"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "healthcare-rcm-leader",
+        "url": "https://www.linkedin.com/in/healthcare-rcm-leader/"
+      },
+      {
+        "network": "GitHub",
+        "username": "aashaukatc",
+        "url": "https://github.com/aashaukatc"
+      },
+      {
+        "network": "ORCID",
+        "username": "0009-0009-0342-9877",
+        "url": "https://orcid.org/0009-0009-0342-9877"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Medlink Communications",
+      "location": "Islamabad / Global Remote",
+      "position": "RCM Solutions Architect & Process Optimization Manager",
+      "startDate": "2026-02",
+      "summary": "Lead revenue-cycle solution architecture, operational product requirements, analytics strategy, workflow optimization, and technology enablement across a 35-40 FTE U.S. healthcare delivery environment.",
+      "highlights": [
+        "Govern performance across approximately 4,500-4,600 monthly claims, $3.8M-$4.0M in monthly charges, and about $1.2M in monthly collections.",
+        "Translate registration, eligibility, authorization, claims, payer, denial, A/R, payment, credentialing, reporting, and user pain points into structured requirements, workflow rules, controls, acceptance conditions, and prioritized improvements.",
+        "Analyze payer behavior, denial patterns, reimbursement variance, workqueue inventory, A/R aging, staff throughput, and data-quality defects to isolate constraints affecting cash velocity and net revenue realization.",
+        "Design routing logic, escalation thresholds, validation controls, audit trails, SOPs, UAT routines, and KPI governance connecting each metric to its root cause, owner, and action."
+      ]
+    },
+    {
+      "name": "Medlink Communications",
+      "location": "Islamabad / Global Remote",
+      "position": "Lead RCM Specialist",
+      "startDate": "2023-10",
+      "endDate": "2026-02",
+      "summary": "Led complex RCM operations, escalations, reporting, eligibility, EDI, payer, and A/R workflows for U.S. healthcare clients.",
+      "highlights": [
+        "Coordinated claim edits, submission, payment posting, denial management, A/R follow-up, underpayment identification, credit balances, collections, and executive reporting across multi-platform environments.",
+        "Supported system and workflow improvements through requirements definition, testing, issue resolution, adoption controls, and structured handoffs."
+      ]
+    },
+    {
+      "name": "Medco Dynamics",
+      "location": "Contract",
+      "position": "Senior Business Analyst",
+      "startDate": "2020-05",
+      "endDate": "2023-10",
+      "summary": "Led healthcare requirements discovery, current-state assessment, gap analysis, workflow mapping, future-state design, implementation planning, and stakeholder alignment.",
+      "highlights": [
+        "Converted ambiguous business needs into functional requirements, workflow rules, reporting specifications, acceptance criteria, project plans, risk registers, remediation plans, and measurable validation conditions.",
+        "Bridged operational users, clients, analysts, technical contributors, and leadership through design, configuration, testing, UAT, rollout, adoption, and continuous improvement.",
+        "Supported Epic and other healthcare platforms through workflow optimization, issue analysis, configuration requirements, and post-change validation."
+      ]
+    },
+    {
+      "name": "Quantum Medical Billing & IT Technologies",
+      "location": "Founder-led venture",
+      "position": "Founder & Director, Strategic Operations",
+      "startDate": "2019-04",
+      "endDate": "2023-05",
+      "summary": "Built and governed healthcare-service delivery spanning client discovery, onboarding, billing, credentialing, A/R, analytics, reporting, workflow design, and operational change.",
+      "highlights": [
+        "Designed end-to-end capabilities across eligibility, authorization, charge entry, claims, remittances, payment posting, denials, A/R, underpayments, collections, patient billing, credentialing, enrollment, and reporting.",
+        "Translated client requirements and payer constraints into service designs, implementation priorities, SOPs, quality controls, training, ownership models, and KPI frameworks.",
+        "Prioritized technology-enabled improvements by revenue impact, user effort, operational risk, repeatability, client value, and scalability."
+      ]
+    },
+    {
+      "name": "Physician's Choice, Inc.",
+      "location": "Concurrent contract",
+      "position": "Revenue Cycle & Credentialing Specialist",
+      "startDate": "2021-06",
+      "endDate": "2023-06",
+      "summary": "Supported Epic and other RCM/EHR environments across Professional Billing and applicable Hospital Billing workflows, payer enrollment, claims, payments, denials, A/R, and credentialing.",
+      "highlights": [
+        "Managed workqueues for claim edits, rejected and denied claims, payer follow-up, authorization and documentation issues, aged receivables, and reimbursement discrepancies.",
+        "Reviewed remittances, contractual variance, underpayments, account balances, payer responses, and denial patterns to determine correction, appeal, resubmission, escalation, or adjustment actions."
+      ]
+    },
+    {
+      "name": "PMTAC Private Limited / Physicians Revenue Group, Inc.",
+      "position": "Senior Billing Specialist – A/R / Customer Service Executive – A/R",
+      "startDate": "2018-04",
+      "endDate": "2020-04",
+      "summary": "Managed high-volume U.S. healthcare billing, payer follow-up, payment research, reconciliation, collections, and aged receivables.",
+      "highlights": [
+        "Produced, distributed, and tracked 10,000+ monthly claims or invoices across 30-, 60-, 90-, and 120+ day aging categories.",
+        "Resolved approximately 3,000 billing and payment issues per month across Medicare, Medicaid, and commercial payer inventory.",
+        "Used Epic and other billing applications for claim status, workqueues, remittance review, payer research, collections, reconciliation, and cash-flow reporting."
+      ]
+    },
+    {
+      "name": "Right Vision Media Syndicate",
+      "position": "Junior Economist",
+      "startDate": "2013-12",
+      "endDate": "2018-04",
+      "summary": "Produced economic and stock-market intelligence while developing evidence synthesis, concise executive communication, and client-facing analytical discipline.",
+      "highlights": [
+        "Produced 10 daily economic and market reports using analysis across 1,000+ business-information sources.",
+        "Handled approximately 50 customer interactions per day."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Virtual University of Pakistan",
+      "area": "Business & Information Technology",
+      "studyType": "Bachelor of Business & Information Technology (BBIT) – In Progress",
+      "startDate": "2026"
+    },
+    {
+      "institution": "University of the Punjab",
+      "area": "English Language & Literature",
+      "studyType": "Bachelor of Arts",
+      "endDate": "2018"
+    },
+    {
+      "institution": "University of the Punjab",
+      "area": "Computer/IT Administration & Management",
+      "studyType": "Bachelor of Commerce",
+      "endDate": "2014"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "EF SET English Certificate – C1 Advanced, 94/100",
+      "issuer": "EF SET"
+    },
+    {
+      "name": "Microsoft Excel Expert – Office 2019 / Microsoft 365",
+      "issuer": "Microsoft"
+    },
+    {
+      "name": "Advanced Excel Analytics & Data Modeling"
+    },
+    {
+      "name": "Excel Dashboarding & Data Visualization"
+    },
+    {
+      "name": "Data Governance Foundations"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Healthcare Revenue Cycle Management",
+      "keywords": [
+        "End-to-end RCM",
+        "Claims",
+        "Payment posting",
+        "Denials and appeals",
+        "A/R aging",
+        "Underpayments",
+        "Revenue integrity",
+        "Eligibility and authorization",
+        "Credentialing and payer enrollment"
+      ]
+    },
+    {
+      "name": "Epic and Healthcare Platforms",
+      "keywords": [
+        "5+ cumulative years Epic RCM",
+        "Epic Resolute PB/HB",
+        "SBO concepts",
+        "Workqueues",
+        "eClinicalWorks/eBO",
+        "Tebra/Kareo",
+        "Athenahealth",
+        "NextGen",
+        "Office Ally",
+        "Waystar",
+        "Availity"
+      ]
+    },
+    {
+      "name": "Business Analysis and Product Delivery",
+      "keywords": [
+        "Requirements discovery",
+        "Current-state assessment",
+        "Future-state design",
+        "Process mapping",
+        "User stories",
+        "Acceptance criteria",
+        "Prioritization",
+        "UAT",
+        "Change management",
+        "Stakeholder management"
+      ]
+    },
+    {
+      "name": "Implementation and Program Management",
+      "keywords": [
+        "Project planning",
+        "Client onboarding",
+        "Scope and milestones",
+        "RAID management",
+        "Dependency tracking",
+        "Go-live readiness",
+        "Training and adoption",
+        "Support handoff",
+        "Executive reporting"
+      ]
+    },
+    {
+      "name": "Data, Analytics, and Automation",
+      "keywords": [
+        "Excel",
+        "Power Query",
+        "Power Pivot",
+        "DAX",
+        "Power BI",
+        "SQL Server/SSMS",
+        "Cognos",
+        "Python",
+        "UiPath",
+        "Power Automate",
+        "Data governance",
+        "AI-assisted workflows"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "DIRT – Data Intelligence for Revenue Transformation",
+      "description": "Healthcare revenue-cycle intelligence architecture spanning governed ingestion, standardized RCM models, denial and payment analytics, exception management, cloud services, and no-PHI operating controls.",
+      "url": "https://dirtrcm.com/",
+      "keywords": [
+        "Healthcare analytics",
+        "RCM",
+        "Data architecture",
+        "Decision support"
+      ]
+    },
+    {
+      "name": "RCM Data Platform / Clean-Room Architecture",
+      "description": "Controlled source-to-analytics workflow using Python intake and QA, SQL Server warehouse concepts, mapping controls, lineage, duplicate detection, row-count reconciliation, exception routing, and Excel/Power BI semantic models.",
+      "url": "https://github.com/aashaukatc/rcm-data-platform",
+      "keywords": [
+        "Data modeling",
+        "Validation",
+        "ETL",
+        "Healthcare BI"
+      ]
+    },
+    {
+      "name": "AynaMate",
+      "description": "Privacy-first beauty-services marketplace direction covering customer discovery, booking, partner workflows, trust boundaries, and staged platform architecture.",
+      "url": "http://aynamate.life/",
+      "keywords": [
+        "Marketplace",
+        "Product operations",
+        "Privacy",
+        "Systems architecture"
+      ]
+    },
+    {
+      "name": "Sehatyaab",
+      "description": "Small-batch healthy nourishment product system combining market research, audience-specific positioning, nutrition-card design, direct-order commerce, and brand operations.",
+      "url": "https://github.com/aashaukatc/Sehatyab",
+      "keywords": [
+        "Market research",
+        "Consumer product",
+        "Nutrition commerce",
+        "Brand systems"
+      ]
+    },
+    {
+      "name": "Masla Yeh Hai",
+      "description": "Pakistan-first public education, civic intelligence, and practical problem-solving platform.",
+      "url": "https://maslayehhai.com/",
+      "keywords": [
+        "Civic technology",
+        "Public education",
+        "Research"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "C1 Advanced / Professional"
+    },
+    {
+      "language": "Urdu",
+      "fluency": "Native/Bilingual"
+    },
+    {
+      "language": "Punjabi",
+      "fluency": "Native/Bilingual"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Global remote work supporting U.S. healthcare operations and U.S. working hours"
+    }
+  ]
+}

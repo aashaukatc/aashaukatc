@@ -17,7 +17,7 @@
   <a href="https://maslayehhai.com/"><strong>Masla Yeh Hai</strong></a> ·
   <a href="http://aynamate.life/"><strong>AynaMate</strong></a> ·
   <a href="mailto:muhammadaftabshaukat@gmail.com"><strong>Email</strong></a> ·
-  <a href="[PLACEHOLDER: Resume / CV Link]"><strong>Resume</strong></a>
+  <a href="https://github.com/aashaukatc/aashaukatc/actions/workflows/build-resume.yml"><strong>Resume Builds</strong></a>
 </p>
 
 ---
@@ -176,7 +176,7 @@ This is the same logic behind my RCM work, public research, product systems, and
 | LinkedIn | [https://www.linkedin.com/in/healthcare-rcm-leader/](https://www.linkedin.com/in/healthcare-rcm-leader/) |
 | ORCID | [https://orcid.org/0009-0009-0342-9877](https://orcid.org/0009-0009-0342-9877) |
 | Email | [muhammadaftabshaukat@gmail.com](mailto:muhammadaftabshaukat@gmail.com) |
-| Resume / CV | `[PLACEHOLDER: Resume link]` |
+| Resume / CV | [Build & download](https://github.com/aashaukatc/aashaukatc/actions/workflows/build-resume.yml) |
 | Calendly / booking | `[PLACEHOLDER: Booking link]` |
 | Portfolio media kit | `[PLACEHOLDER: Media kit link]` |
 
