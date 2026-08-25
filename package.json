@@ -2,14 +2,16 @@
   "name": "aftab-cloud-resume",
   "version": "1.0.0",
   "private": true,
-  "description": "Reproducible JSON Resume validation and PDF generation for Muhammad Aftab Shaukat.",
+  "description": "Governed career source, tailored resume, cover-letter, and application-pack automation for Muhammad Aftab Shaukat.",
   "engines": {
     "node": ">=24 <25"
   },
   "scripts": {
     "validate": "resume validate --resume resumes/resume.json",
     "build": "node scripts/build-resumes.mjs",
-    "build:standard": "node scripts/build-resumes.mjs resumes/resume.json"
+    "build:standard": "node scripts/build-resumes.mjs resumes/resume.json",
+    "new:application": "node scripts/new-application.mjs",
+    "build:applications": "node scripts/build-application.mjs"
   },
   "devDependencies": {
     "jsonresume-theme-elegant": "1.16.1",

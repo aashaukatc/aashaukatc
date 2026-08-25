@@ -1,0 +1,103 @@
+name: Build Career Application Pack
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "applications/**/*.json"
+      - "resumes/resume.json"
+      - "schemas/application.schema.json"
+      - "scripts/build-application.mjs"
+      - ".github/workflows/build-application-pack.yml"
+      - "package.json"
+      - "package-lock.json"
+  workflow_dispatch:
+    inputs:
+      application_path:
+        description: "Optional application.json path; blank builds every ready application"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: career-pack-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Validate evidence and render application pack
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PUPPETEER_CACHE_DIR: ${{ github.workspace }}/.cache/puppeteer
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js LTS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends \
+            fonts-dejavu-core \
+            fonts-liberation \
+            fonts-noto-cjk \
+            fonts-noto-color-emoji \
+            fonts-noto-core
+          sudo fc-cache --force
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Configure preinstalled Chrome
+        shell: bash
+        run: |
+          set -euo pipefail
+          chrome_path="$(command -v google-chrome || command -v google-chrome-stable)"
+          test -x "$chrome_path"
+          echo "PUPPETEER_EXECUTABLE_PATH=$chrome_path" >> "$GITHUB_ENV"
+          "$chrome_path" --version
+
+      - name: Select application sources
+        id: sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -n "${{ inputs.application_path }}" ]]; then
+            printf '%s\n' "${{ inputs.application_path }}" > "$RUNNER_TEMP/application-sources.txt"
+          else
+            mapfile -t files < <(find applications -mindepth 2 -maxdepth 2 -type f -name application.json ! -path '*/_*/*' -print | sort)
+            if (( ${#files[@]} == 0 )); then
+              echo "No application files found; résumé automation remains ready."
+              echo "has_files=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            printf '%s\n' "${files[@]}" > "$RUNNER_TEMP/application-sources.txt"
+          fi
+          echo "has_files=true" >> "$GITHUB_OUTPUT"
+
+      - name: Build application pack
+        if: steps.sources.outputs.has_files == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t files < "$RUNNER_TEMP/application-sources.txt"
+          npm run build:applications -- "${files[@]}"
+
+      - name: Upload application pack
+        if: steps.sources.outputs.has_files == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: career-application-pack-${{ github.run_number }}-${{ github.sha }}
+          path: output/applications/**
+          if-no-files-found: error
+          retention-days: 30

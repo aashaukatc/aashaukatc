@@ -1,194 +1,77 @@
-<p align="center">
-  <a href="https://aftabshaukat.me/">
-    <img src="https://capsule-render.vercel.app/api?type=waving&height=185&color=0:0B1220,50:1D4ED8,100:D3A85C&text=Muhammad%20Aftab%20Shaukat&fontColor=F8FAFC&fontSize=38&fontAlignY=35&desc=Healthcare%20RCM%20%C2%B7%20Operations%20Intelligence%20%C2%B7%20Data%20Systems%20%C2%B7%20AI-Assisted%20Execution&descAlignY=58&descSize=14" alt="Muhammad Aftab Shaukat" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://aftabshaukat.me/"><strong>Portfolio</strong></a> ·
-  <a href="https://github.com/aashaukatc/aashaukatc.github.io"><strong>Website Repo</strong></a> ·
-  <a href="https://github.com/aashaukatc/aashaukatc"><strong>Profile Repo</strong></a> ·
-  <a href="https://www.linkedin.com/in/healthcare-rcm-leader/"><strong>LinkedIn</strong></a> ·
-  <a href="https://orcid.org/0009-0009-0342-9877"><strong>ORCID</strong></a>
-</p>
-
-<p align="center">
-  <a href="https://dirtrcm.com/"><strong>DIRT</strong></a> ·
-  <a href="https://maslayehhai.com/"><strong>Masla Yeh Hai</strong></a> ·
-  <a href="http://aynamate.life/"><strong>AynaMate</strong></a> ·
-  <a href="mailto:muhammadaftabshaukat@gmail.com"><strong>Email</strong></a> ·
-  <a href="https://github.com/aashaukatc/aashaukatc/actions/workflows/build-resume.yml"><strong>Resume Builds</strong></a>
-</p>
-
----
-
 # Muhammad Aftab Shaukat
 
-### Healthcare RCM Operator · Business Analyst · Solutions Architect · Data & AI Systems Builder
+Healthcare RCM & Operations Leader · Solutions Architect · Business Analyst · Revenue Intelligence · Data & AI Systems
 
-I build practical systems that help organizations see where revenue, workflow, data, and execution are breaking down — then convert that visibility into measurable action.
+[Portfolio](https://aftabshaukat.me/) · [Résumé](https://aftabshaukat.me/resume.html) · [LinkedIn](https://www.linkedin.com/in/healthcare-rcm-leader/) · [ORCID](https://orcid.org/0009-0009-0342-9877) · [Email](mailto:muhammadaftabshaukat@gmail.com)
 
-My foundation is U.S. healthcare Revenue Cycle Management and operations. My current work extends that operating experience into data products, decision-support systems, marketplace platforms, public education assets, and AI-assisted execution workflows.
+## Healthcare operations, data, and systems—made executable.
 
-The operating principle is simple:
+I turn complex healthcare revenue operations into measurable workflows, governed data, and systems teams can execute.
 
-```text
-Make hidden operational problems visible, measurable, governable, and actionable.
-```
+Across 12+ years supporting U.S. healthcare, my work has covered billing, A/R, denials, eligibility, authorization, payer operations, credentialing, client implementation, analytics, automation, and workflow optimization. That operating depth now drives my work in solutions architecture, business analysis, product-oriented delivery, and revenue intelligence.
 
----
+| Recent operating scope | Verified scale |
+|---|---:|
+| Team environment | 35–40 FTE |
+| Monthly claims | ~4,500–4,600 |
+| Monthly charges | $3.8M–$4.0M |
+| Monthly collections | ~$1.2M |
+| Epic RCM experience | 5+ cumulative years |
 
-## Executive Value Proposition
+## Expertise
 
-| Stakeholder | Value Delivered |
+| Area | What I bring |
 |---|---|
-| Healthcare organizations | Revenue leakage visibility, denial intelligence, payer/CPT/provider performance analysis, AR risk diagnosis, and workflow actioning |
-| RCM leaders and billing companies | Operational decision support, audit-ready reporting, process control, escalation logic, and no-PHI intelligence architecture |
-| Product and technology teams | Requirements clarity, system maps, workflow contracts, documentation discipline, and implementation-ready operating models |
-| Public and community users | Structured education, civic intelligence, research-backed public assets, and practical learning systems |
-| Potential clients and partners | Proof-of-work across healthcare, data, automation, marketplaces, and public-interest platforms |
+| Revenue cycle transformation | Denials, A/R, payment integrity, eligibility, authorization, payer behavior, workqueues, underpayments, and revenue leakage |
+| Data and decision systems | Excel, Power Query, Power Pivot, DAX, SQL, dashboard logic, validation controls, reconciliation, and KPI governance |
+| Implementation and product delivery | Requirements, workflow design, UAT, client onboarding, change management, automation, adoption, and executive reporting |
+| Healthcare platforms | Epic Resolute PB/HB concepts, eClinicalWorks/eBO, Athenahealth, Tebra/Kareo, NextGen, Office Ally, Waystar, Availity, and payer portals |
 
----
+## Selected work
 
-## Current Operating Tracks
+### [DIRT — Data Intelligence for Revenue Transformation](https://dirtrcm.com/)
 
-| Track | What I Build | Outcome |
+A governed healthcare RCM intelligence initiative focused on denials, payment behavior, revenue leakage, payer performance, and operational decision support.
+
+### [RCM Data Platform](https://github.com/aashaukatc/rcm-data-platform)
+
+A reusable architecture for transforming messy RCM exports into validated analytical models and dashboard-ready data, with mapping controls, lineage, duplicate detection, reconciliation, and exception routing.
+
+### Public RCM Research
+
+- [Hospice & Nursing Home Billing / RCM Guide](https://aftabshaukat.me/hospice-nursing-home-billing-rcm.html)
+- [Remote Monitoring RCM Architecture](https://aftabshaukat.me/remote-monitoring-rcm-architecture.html)
+
+## Experience snapshot
+
+| Period | Organization and role | Focus |
 |---|---|---|
-| **Healthcare RCM Intelligence** | Denial, payment, payer, provider, CPT, facility, AR, and NCR analysis systems | Better revenue control and clearer operational priorities |
-| **Operations Architecture** | Process maps, escalation logic, QA gates, documentation systems, and execution workflows | Less ambiguity, stronger accountability, cleaner handoffs |
-| **Data & Decision Support** | Excel/Power Query/DAX, SQL-oriented models, dashboard logic, validation layers, and KPI systems | Decisions grounded in reconciled data, not noise |
-| **AI-Assisted Execution** | Research-to-product workflows, prompt systems, automation scaffolds, and agent-ready documentation | Faster build cycles without losing governance |
-| **Public Platforms** | Civic education, service marketplaces, nutrition commerce, and research assets | Public value with structured product discipline |
+| 2023–Present | Medlink Communications — Lead RCM Specialist → RCM Solutions Architect & Process Optimization Manager | Revenue-cycle architecture, KPI governance, analytics, escalations, reporting, and workflow optimization |
+| 2020–2023 | Medco Dynamics — Senior Business Analyst | Requirements discovery, current-state assessment, future-state design, UAT, implementation planning, and stakeholder alignment |
+| 2019–2023 | Quantum Medical Billing & IT Technologies — Founder & Director, Strategic Operations | Client onboarding, billing, credentialing, A/R, analytics, service design, and operational governance |
+| 2018–2020 | PMTAC / Physicians Revenue Group — Senior Billing Specialist, A/R | High-volume claims, payer follow-up, payment research, reconciliation, collections, and aging control |
 
----
+[View the full professional résumé](https://aftabshaukat.me/resume.html)
 
-## Project Portfolio
+## Broader systems practice
 
-### DIRT — Data Intelligence for Revenue Transformation
+- [AynaMate](http://aynamate.life/) — privacy-first service-marketplace architecture.
+- [Sehatyaab](https://github.com/aashaukatc/Sehatyab) — research-led nutrition commerce and brand operations.
+- [Masla Yeh Hai](https://maslayehhai.com/) — public education and civic-intelligence platform.
 
-A governed healthcare revenue-cycle intelligence platform direction for RCM leaders, finance teams, billing companies, and operators.
+## Career application automation
 
-**Value:** exposes trapped revenue, denial patterns, workflow breakdowns, and operational risk while preserving no-PHI discipline and human review boundaries.
+This repository also maintains a governed, cloud-native career system:
 
-- Domain: [dirtrcm.com](https://dirtrcm.com/) / [dirtrcm.app](https://dirtrcm.app/)
-- Backend/engineering direction: `CoE-DIRT/dirt-backend-foundation`
-- Frontend direction: `CoE-DIRT/rcm-iaas-netlify-mvp`
-- Placeholder: `[PLACEHOLDER: Public case study link]`
+- `resumes/resume.json` — canonical verified career record.
+- `resumes/targets/` — reusable role-family résumé overlays.
+- `applications/` — job-specific résumé, cover-letter, evidence, and profile-update specifications.
+- GitHub Actions — validated PDF résumé and complete application-pack builds.
 
-### AynaMate
+[How the career application system works](docs/resume-system.md) · [Résumé build workflow](https://github.com/aashaukatc/aashaukatc/actions/workflows/build-resume.yml)
 
-A privacy-first beauty-services marketplace direction for customers and artist partners, built around service discovery, booking, partner workflows, and staged mobile readiness.
+## Contact
 
-**Value:** demonstrates consumer marketplace architecture, service operations thinking, trust boundaries, and enterprise-grade repository governance.
+Based in Rawalpindi, Pakistan and experienced supporting U.S. healthcare teams and working hours.
 
-- Live/project link: [aynamate.life](http://aynamate.life/)
-- Repo: `aashaukatc/AynaMate` private enterprise monorepo
-- Placeholder: `[PLACEHOLDER: Product demo / screenshots link]`
-
-### Sehatyaab
-
-A small-batch healthy nourishment product system with distinct product lines for performance, family, and wellness audiences.
-
-**Value:** combines market research, product positioning, nutrition-card design, direct-order commerce, and brand-operating-system thinking.
-
-- Repo: [aashaukatc/Sehatyab](https://github.com/aashaukatc/Sehatyab)
-- Placeholder: `[PLACEHOLDER: Sehatyaab live site / order page]`
-
-### Masla Yeh Hai
-
-A Pakistan-first public education, civic intelligence, and practical problem-solving platform.
-
-**Value:** turns public issues into structured learning, research-backed campaigns, civic reasoning assets, and community-oriented digital systems.
-
-- Live: [maslayehhai.com](https://maslayehhai.com/)
-- Repo: [aashaukatc/maslayehhai](https://github.com/aashaukatc/maslayehhai)
-- Placeholder: `[PLACEHOLDER: Campaign / flagship article link]`
-
-### RCM Data Platform
-
-Reusable RCM analytics and modeling foundation for payer, CPT, provider, denial, AR, TAT, and performance analysis.
-
-**Value:** shows the back-office analytics discipline behind client-facing RCM dashboards and decision-support systems.
-
-- Repo: [aashaukatc/rcm-data-platform](https://github.com/aashaukatc/rcm-data-platform)
-- Placeholder: `[PLACEHOLDER: Sanitized dashboard screenshot / demo workbook]`
-
----
-
-## Public Research Assets
-
-| Asset | Purpose | Link |
-|---|---|---|
-| Hospice & Nursing Home Billing / RCM Guide | Post-acute billing, coding, compliance, and implementation reference | [Open](https://aftabshaukat.me/hospice-nursing-home-billing-rcm.html) |
-| Remote Monitoring RCM Architecture | RPM/RTM/Ambient workflow and revenue architecture | [Open](https://aftabshaukat.me/remote-monitoring-rcm-architecture.html) |
-| ORCID Profile | Research identity and publication pathway | [Open](https://orcid.org/0009-0009-0342-9877) |
-| Future publication index | Placeholder for papers, preprints, and structured research notes | `[PLACEHOLDER: Publications page]` |
-
----
-
-## Core Capability Matrix
-
-| Capability | Tools / Stack | Business Use |
-|---|---|---|
-| RCM operations | eClinicalWorks, Athena, payer portals, denial workflows, AR operations | Revenue recovery, denial triage, payer follow-up, operational control |
-| Analytics | Excel, Power Query, Power Pivot, DAX, SQL modeling, validation logic | Dashboards, NCR analysis, reconciliation, leadership reporting |
-| Product systems | GitHub, docs-as-code, issue governance, repo standards, requirements mapping | Execution discipline and scalable product documentation |
-| Web/product UI | HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind direction | Public-facing products, prototypes, interactive proof-of-work |
-| Automation & AI | Prompt systems, GitHub workflows, Codex-style execution, structured research workflows | Faster delivery with clearer review boundaries |
-
----
-
-## How I Think
-
-```text
-Problem
-  → Process
-    → Data
-      → Root Cause
-        → Architecture
-          → Automation
-            → Action
-              → Measurement
-```
-
-This is the same logic behind my RCM work, public research, product systems, and client-facing decision support.
-
----
-
-## Best-Fit Collaboration
-
-| Path | Best Fit |
-|---|---|
-| Employment | Healthcare RCM leadership, operations intelligence, business analysis, solutions architecture, product operations |
-| Consulting / client work | RCM analytics, denial intelligence, workflow redesign, dashboard systems, operational reporting, automation planning |
-| Product collaboration | Healthcare SaaS, AI-assisted operations, marketplaces, public-interest platforms, research-to-product systems |
-| Academic / public research | Healthcare operations, digital health workflows, RCM systems, civic technology, AI-assisted productivity |
-
----
-
-## Contact & Identity
-
-| Channel | Link |
-|---|---|
-| Portfolio | [https://aftabshaukat.me/](https://aftabshaukat.me/) |
-| Website repo | [https://github.com/aashaukatc/aashaukatc.github.io](https://github.com/aashaukatc/aashaukatc.github.io) |
-| GitHub profile repo | [https://github.com/aashaukatc/aashaukatc](https://github.com/aashaukatc/aashaukatc) |
-| LinkedIn | [https://www.linkedin.com/in/healthcare-rcm-leader/](https://www.linkedin.com/in/healthcare-rcm-leader/) |
-| ORCID | [https://orcid.org/0009-0009-0342-9877](https://orcid.org/0009-0009-0342-9877) |
-| Email | [muhammadaftabshaukat@gmail.com](mailto:muhammadaftabshaukat@gmail.com) |
-| Resume / CV | [Build & download](https://github.com/aashaukatc/aashaukatc/actions/workflows/build-resume.yml) |
-| Calendly / booking | `[PLACEHOLDER: Booking link]` |
-| Portfolio media kit | `[PLACEHOLDER: Media kit link]` |
-
----
-
-## GitHub Analytics
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aashaukatc&theme=tokyonight" alt="GitHub profile details" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aashaukatc&theme=tokyonight" alt="GitHub stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=aashaukatc&theme=tokyonight" alt="GitHub repositories by language" />
-</p>
+[muhammadaftabshaukat@gmail.com](mailto:muhammadaftabshaukat@gmail.com) · [LinkedIn](https://www.linkedin.com/in/healthcare-rcm-leader/) · [Portfolio](https://aftabshaukat.me/)

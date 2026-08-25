@@ -1,0 +1,59 @@
+{
+  "$schema": "../../schemas/application.schema.json",
+  "slug": "company-role",
+  "status": "draft",
+  "job": {
+    "company": "Company",
+    "role": "Role",
+    "url": "https://example.com/job",
+    "location": "Remote",
+    "workMode": "Remote",
+    "keywords": []
+  },
+  "resume": {
+    "basics": {
+      "label": "Role-specific professional headline",
+      "summary": "Role-specific summary grounded only in the canonical resume."
+    },
+    "skills": [
+      {
+        "name": "Priority capability",
+        "keywords": ["Verified keyword"]
+      }
+    ]
+  },
+  "coverLetter": {
+    "date": "Month DD, YYYY",
+    "recipient": "Hiring Manager\nCompany",
+    "salutation": "Dear Hiring Manager,",
+    "paragraphs": [
+      "Opening paragraph connecting the verified professional profile to the role.",
+      "Evidence paragraph mapping the strongest relevant operating experience and outcomes.",
+      "Closing paragraph explaining fit and interest without generic claims."
+    ],
+    "closing": "Sincerely,"
+  },
+  "alignment": [
+    {
+      "requirement": "Job requirement",
+      "evidence": "Verified matching evidence",
+      "source": "resumes/resume.json#/work/0/highlights/0"
+    },
+    {
+      "requirement": "Job requirement",
+      "evidence": "Verified matching evidence",
+      "source": "resumes/resume.json#/skills/0"
+    },
+    {
+      "requirement": "Job requirement",
+      "evidence": "Verified matching evidence",
+      "source": "resumes/resume.json#/projects/0"
+    }
+  ],
+  "profileUpdates": {
+    "linkedinHeadline": "",
+    "linkedinAboutAddendum": "",
+    "platformNotes": []
+  },
+  "applicationQuestions": []
+}

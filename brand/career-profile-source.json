@@ -1,0 +1,42 @@
+{
+  "updated": "2026-08-25",
+  "identity": {
+    "name": "Muhammad Aftab Shaukat",
+    "shortName": "Aftab Shaukat",
+    "location": "Rawalpindi, Pakistan",
+    "email": "muhammadaftabshaukat@gmail.com",
+    "portfolio": "https://aftabshaukat.me/",
+    "linkedin": "https://www.linkedin.com/in/healthcare-rcm-leader/",
+    "github": "https://github.com/aashaukatc",
+    "orcid": "https://orcid.org/0009-0009-0342-9877"
+  },
+  "positioning": {
+    "headline": "Healthcare RCM & Operations Leader | Solutions Architecture | Business Analysis | Revenue Intelligence | Data & AI Systems",
+    "tagline": "Healthcare operations, data, and systems—made executable.",
+    "summary": "Senior healthcare revenue-cycle and operations leader with 12+ years supporting U.S. healthcare across billing, A/R, denials, payer operations, business analysis, client implementation, analytics, automation, and systems optimization. Translates operational complexity into measurable workflows, governed data, decision-support systems, and implementation-ready execution."
+  },
+  "verifiedScale": [
+    "12+ years supporting U.S. healthcare revenue-cycle operations",
+    "35–40 FTE recent operating scope",
+    "Approximately 4,500–4,600 monthly claims",
+    "$3.8M–$4.0M in monthly charges",
+    "Approximately $1.2M in monthly collections",
+    "5+ cumulative years of Epic RCM experience"
+  ],
+  "linkedin": {
+    "headline": "Healthcare RCM & Operations Leader | Solutions Architecture | Business Analysis | Revenue Intelligence | Data & AI Systems",
+    "about": [
+      "I turn complex healthcare revenue operations into systems that teams can measure, govern, and improve.",
+      "Across 12+ years supporting U.S. healthcare, my work has covered billing, A/R, denials, eligibility, authorization, payer operations, credentialing, client implementation, analytics, automation, and workflow optimization. That frontline depth now informs my work in solutions architecture, business analysis, product-oriented delivery, and revenue intelligence.",
+      "My strongest contribution is connecting operations, data, and execution: diagnosing where work or revenue is getting stuck; translating the problem into requirements and controls; building decision-ready reporting; and supporting implementation through UAT, adoption, escalation, and measurable follow-through.",
+      "Current areas of focus include healthcare RCM leadership, Epic and multi-platform revenue-cycle workflows, operational analytics, data governance, implementation, product operations, and AI-assisted workflow design."
+    ]
+  },
+  "github": {
+    "bio": "Healthcare RCM and operations leader building revenue intelligence, workflow systems, data products, and implementation-ready solutions.",
+    "profileLead": "I turn complex healthcare operations into measurable workflows, governed data, and systems teams can execute."
+  },
+  "orcid": {
+    "biography": "Healthcare revenue-cycle and operations practitioner focused on RCM systems, operational analytics, implementation workflows, remote-monitoring revenue architecture, and applied digital-health research."
+  }
+}

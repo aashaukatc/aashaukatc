@@ -3,5 +3,5 @@ node_modules/
 .npm/
 .env
 .DS_Store
-output/*.pdf
+output/**
 !output/.gitkeep
