@@ -1,68 +1,76 @@
-# Cloud Resume System
+# Career Application System
 
-`resumes/resume.json` is the canonical career-data source. Nine lightweight files under `resumes/targets/` contain only role-specific positioning and skills derived from the approved tailored resumes. GitHub Codespaces provides the development environment, and GitHub Actions merges, validates, and renders downloadable PDF artifacts.
+This repository is the governed career source for Muhammad Aftab Shaukat. It separates durable facts from role-specific positioning so a new application can be produced without rewriting or duplicating career history.
 
-## Repository layout
+## What the system produces
 
-```text
-.
-├── .devcontainer/
-│   ├── devcontainer.json
-│   └── Dockerfile
-├── .github/workflows/build-resume.yml
-├── docs/resume-system.md
-├── output/.gitkeep
-├── resumes/resume.json
-├── resumes/targets/*_resume.json
-├── scripts/build-resumes.mjs
-├── package-lock.json
-└── package.json
-```
+| Input | Automated output |
+|---|---|
+| Canonical career change | Validated canonical and target-specific résumé PDFs |
+| New job posting | Tailored résumé PDF, cover-letter PDF/HTML/Markdown, ATS evidence matrix, application brief, and career-profile update notes |
+| Career-platform change | Synchronized copy for the portfolio, GitHub profile, LinkedIn, and ORCID |
 
-## Codespaces
+## Source hierarchy
 
-Open the repository in GitHub Codespaces. Container creation installs Node.js LTS, PowerShell, Chromium, fonts, `resume-cli`, `jsonresume-theme-elegant`, and locked project dependencies.
+1. `resumes/resume.json` — verified employment, education, credentials, projects, platforms, and metrics.
+2. `resumes/targets/*_resume.json` — reusable role-family positioning from previously approved tailored résumés.
+3. `applications/<company-role>/application.json` — one job-specific overlay, cover letter, keyword set, and evidence map.
+4. `brand/career-profile-source.json` — canonical positioning and platform-specific copy.
 
-```bash
-npm run validate
-npm run build
-```
+Shared facts must be corrected in `resumes/resume.json`, never copied into multiple application files. Application claims must point back to the canonical source through `alignment[].source`.
 
-Generated PDFs are written to `output/` and intentionally excluded from Git.
+## Fastest workflow for a new job
 
-## Canonical and targeted resumes
+Send the job URL or complete job description to ChatGPT. The tailored application file should then be created from verified evidence and committed through a governed pull request. GitHub Actions renders the complete pack.
 
-The canonical file owns shared employment, education, credentials, projects, platforms, metrics, and contact information. Target overlays own only the role-specific headline, professional summary, and priority skill group.
-
-The build includes:
-
-- `resumes/resume.json`
-- Any file matching `resumes/targets/*_resume.json`
-
-Each overlay is merged with the canonical source before validation and rendering. For example, `resumes/targets/psychplus_product_manager_resume.json` creates `output/psychplus_product_manager_resume.pdf`.
-
-## CI/CD
-
-Changes to any JSON file on `main` trigger `.github/workflows/build-resume.yml`. The workflow:
-
-1. Installs dependencies from `package-lock.json`.
-2. Installs Chrome-compatible Linux libraries and international fonts.
-3. Merges target overlays with the canonical source and validates every resulting resume against the JSON Resume schema.
-4. Generates and verifies PDF outputs.
-5. Uploads the PDFs as a 30-day GitHub Actions artifact.
-
-When the canonical source changes, all ten PDFs are rebuilt. When one target overlay changes, only that targeted PDF is rebuilt.
-
-The workflow can also be run manually from the GitHub Actions tab.
-
-## Git governance
-
-Use explicit staging and atomic semantic commits.
+To scaffold a draft in Codespaces:
 
 ```bash
-git add resumes/resume.json
-git commit -m "feat(resume): update professional source data"
-git push origin main
+npm run new:application -- \
+  --company "Company" \
+  --role "Role" \
+  --url "https://company.example/jobs/123" \
+  --location "Remote — United States" \
+  --work-mode "Remote"
 ```
 
-Do not use bulk staging or force pushes.
+The new file is created at `applications/<company-role>/application.json` with `status: draft`. Tailor it, remove every template phrase, confirm the evidence map, and set `status` to `ready`.
+
+Build one application pack:
+
+```bash
+npm run build:applications -- applications/<company-role>/application.json
+```
+
+Generated files are written to `output/applications/<company-role>/`:
+
+- `<slug>_resume.pdf`
+- `<slug>_cover-letter.pdf`
+- `<slug>_cover-letter.html`
+- `<slug>_cover-letter.md`
+- `<slug>_application-brief.md`
+
+The same pack is uploaded as a 30-day artifact by `.github/workflows/build-application-pack.yml`.
+
+## Resume builds
+
+`npm run build` validates and renders the canonical résumé plus every reusable target overlay. When the canonical source changes, all résumé variants inherit the change automatically.
+
+## Career-platform synchronization
+
+Update `brand/career-profile-source.json` when positioning or a verified career fact changes. Review these surfaces together:
+
+1. `https://aftabshaukat.me/` — primary public anchor.
+2. GitHub profile `README.md` — technical proof and repository navigation.
+3. LinkedIn — recruiter-facing headline, About, experience, skills, and Featured links.
+4. ORCID — research identity and published research assets.
+
+Job-specific keywords belong in the application pack. Durable positioning belongs in the platform source. Do not repeatedly rewrite public profiles for one isolated vacancy unless the target role represents a sustained career direction.
+
+## Governance
+
+- No invented achievements, certifications, platform depth, or metrics.
+- No PHI, payer credentials, patient data, private client identifiers, or confidential screenshots.
+- No placeholder text in any `ready` application.
+- No bulk staging or force pushes.
+- Use feature branches, semantic commits, pull requests, and squash merges.
