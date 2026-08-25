@@ -1,0 +1,7 @@
+node_modules/
+.cache/
+.npm/
+.env
+.DS_Store
+output/*.pdf
+!output/.gitkeep
