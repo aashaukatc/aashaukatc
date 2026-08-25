@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - "**/*.json"
+      - ".github/workflows/build-resume.yml"
+      - "scripts/build-resumes.mjs"
   workflow_dispatch:
 
 permissions:
@@ -49,8 +51,14 @@ jobs:
       - name: Install locked dependencies
         run: npm ci
 
-      - name: Install compatible Chrome and Linux libraries
-        run: npx --no-install puppeteer browsers install chrome --install-deps
+      - name: Configure preinstalled Chrome
+        shell: bash
+        run: |
+          set -euo pipefail
+          chrome_path="$(command -v google-chrome || command -v google-chrome-stable)"
+          test -x "$chrome_path"
+          echo "PUPPETEER_EXECUTABLE_PATH=$chrome_path" >> "$GITHUB_ENV"
+          "$chrome_path" --version
 
       - name: Select resume sources
         id: sources
