@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25",
+  "updated": "2026-10-27",
   "identity": {
     "name": "Muhammad Aftab Shaukat",
     "shortName": "Aftab Shaukat",
@@ -13,7 +13,8 @@
   "positioning": {
     "headline": "Healthcare RCM & Operations Leader | Solutions Architecture | Business Analysis | Revenue Intelligence | Data & AI Systems",
     "tagline": "Healthcare operations, data, and systems—made executable.",
-    "summary": "Senior healthcare revenue-cycle and operations leader with 12+ years supporting U.S. healthcare across billing, A/R, denials, payer operations, business analysis, client implementation, analytics, automation, and systems optimization. Translates operational complexity into measurable workflows, governed data, decision-support systems, and implementation-ready execution."
+    "summary": "Senior healthcare revenue-cycle and operations leader with 12+ years supporting U.S. healthcare across billing, A/R, denials, payer operations, business analysis, client implementation, analytics, automation, and systems optimization. Translates operational complexity into measurable workflows, governed data, decision-support systems, and implementation-ready execution.",
+    "websiteHero": "Healthcare operations. Engineered for impact."
   },
   "verifiedScale": [
     "12+ years supporting U.S. healthcare revenue-cycle operations",
@@ -38,5 +39,13 @@
   },
   "orcid": {
     "biography": "Healthcare revenue-cycle and operations practitioner focused on RCM systems, operational analytics, implementation workflows, remote-monitoring revenue architecture, and applied digital-health research."
+  },
+  "website": {
+    "home": "https://aftabshaukat.me/",
+    "expertise": "https://aftabshaukat.me/services.html",
+    "work": "https://aftabshaukat.me/work.html",
+    "about": "https://aftabshaukat.me/about.html",
+    "contact": "https://aftabshaukat.me/contact.html",
+    "publicClaimsPolicy": "Only verified career claims and clearly labeled synthetic demo visuals"
   }
 }
